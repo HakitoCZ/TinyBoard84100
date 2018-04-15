@@ -355,20 +355,18 @@ Wire Wire Line
 	9000 3200 9000 3350
 Wire Wire Line
 	9000 3350 9300 3350
-Text Label 8250 2850 0    60   ~ 0
-MISO
 Text Label 8250 3100 0    60   ~ 0
-SCK
+PA4
 Text Label 8250 3350 0    60   ~ 0
-~RST
+PB3
 Text Label 9300 3100 2    60   ~ 0
-MOSI
+PA6
 Wire Wire Line
 	10050 2800 10050 2600
 Wire Wire Line
 	10050 2600 9850 2600
 Text Label 9850 2600 0    60   ~ 0
-SCK
+PA4
 $Comp
 L GND #PWR?
 U 1 1 5AD37B93
@@ -502,4 +500,12 @@ F 3 "" H 6100 5500 50  0000 C CNN
 	1    6100 5500
 	-1   0    0    1   
 $EndComp
+Text Label 8250 2850 0    60   ~ 0
+PA5
+Text Notes 8200 3300 2    60   ~ 0
+MISO\n\nSCK\n\n~RST
+Text Notes 9350 3300 0    60   ~ 0
++5V\n\nMOSI\n\nGND
+Text Notes 8100 2350 0    60   ~ 0
+MISO     = PA5 (pin 8)\nMOSI     = PA6 (pin 7)\nSCK/SCL = PA4 (pin 9)\n~RST~      = PB3 (pin 4)
 $EndSCHEMATC
