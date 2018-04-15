@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/hrnek/Documents/KiCAD/TinyBoard84100/TinyBoard84100.sch</source>
-    <date>Sun 15 Apr 2018 17:20:38 BST</date>
+    <date>Sun 15 Apr 2018 19:48:08 BST</date>
     <tool>Eeschema 4.0.5+dfsg1-4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,84 +21,98 @@
   <components>
     <comp ref="SW1">
       <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_EVQPE1</footprint>
       <libsource lib="custom-lib" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23CB0</tstamp>
     </comp>
     <comp ref="P4">
       <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
       <libsource lib="conn" part="CONN_02X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23CEF</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23D2C</tstamp>
     </comp>
     <comp ref="R1">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="custom-lib" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23D65</tstamp>
     </comp>
     <comp ref="R3">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="custom-lib" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23D8B</tstamp>
     </comp>
     <comp ref="C1">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="custom-lib" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23DAF</tstamp>
     </comp>
     <comp ref="C2">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="custom-lib" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23DE1</tstamp>
     </comp>
     <comp ref="D1">
       <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="custom-lib" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23E1F</tstamp>
     </comp>
     <comp ref="D2">
       <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="custom-lib" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23E83</tstamp>
     </comp>
     <comp ref="R2">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="custom-lib" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23EBD</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X07</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07</footprint>
       <libsource lib="conn" part="CONN_01X07"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23FFE</tstamp>
     </comp>
     <comp ref="P3">
       <value>CONN_01X07</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07</footprint>
       <libsource lib="conn" part="CONN_01X07"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD240B6</tstamp>
     </comp>
     <comp ref="U2">
       <value>ATTINY841</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
       <libsource lib="custom-lib" part="ATTINY841"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23C06</tstamp>
     </comp>
     <comp ref="U1">
       <value>78L05</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
       <libsource lib="custom-lib" part="78L05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD23F10</tstamp>
@@ -263,11 +277,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="custom-lib">
-      <uri>/home/hrnek/Documents/KiCAD/custom-lib/custom-lib.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="custom-lib">
+      <uri>/home/hrnek/Documents/KiCAD/custom-lib/custom-lib.lib</uri>
     </library>
   </libraries>
   <nets>
