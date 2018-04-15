@@ -385,12 +385,8 @@ Text Label 7500 3400 0    60   ~ 0
 SCK
 Text Label 7500 3650 0    60   ~ 0
 ~RST
-Text Label 8400 3150 0    60   ~ 0
-+5V
 Text Label 8350 3400 0    60   ~ 0
 MOSI
-Text Label 8400 3650 0    60   ~ 0
-GND
 Wire Wire Line
 	9600 3000 9600 2800
 Wire Wire Line
@@ -410,4 +406,26 @@ F 3 "" H 9600 4000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9600 4000 9600 3800
+$Comp
+L GND #PWR?
+U 1 1 5AD37D91
+P 8550 3650
+F 0 "#PWR?" H 8550 3400 50  0001 C CNN
+F 1 "GND" H 8550 3500 50  0000 C CNN
+F 2 "" H 8550 3650 50  0000 C CNN
+F 3 "" H 8550 3650 50  0000 C CNN
+	1    8550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AD37EB4
+P 8550 3150
+F 0 "#PWR?" H 8550 3000 50  0001 C CNN
+F 1 "+5V" H 8550 3290 50  0000 C CNN
+F 2 "" H 8550 3150 50  0000 C CNN
+F 3 "" H 8550 3150 50  0000 C CNN
+	1    8550 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
