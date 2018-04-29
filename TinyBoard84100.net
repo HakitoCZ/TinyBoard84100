@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hrnek/Documents/KiCAD/TinyBoard84100/TinyBoard84100.sch)
-    (date "Sun 15 Apr 2018 19:48:05 BST")
+    (date "Sun 29 Apr 2018 15:04:04 BST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref SW1)
       (value SW_PUSH)
-      (footprint Buttons_Switches_SMD:SW_SPST_EVQPE1)
+      (footprint Buttons_Switches_SMD:SW_SPST_FSMSM)
       (libsource (lib custom-lib) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD23CB0))
@@ -95,7 +95,7 @@
       (tstamp 5AD23C06))
     (comp (ref U1)
       (value 78L05)
-      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
+      (footprint TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering)
       (libsource (lib custom-lib) (part 78L05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD23F10)))
@@ -224,10 +224,10 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical custom-lib)
-      (uri /home/hrnek/Documents/KiCAD/custom-lib/custom-lib.lib)))
+      (uri /home/hrnek/Documents/KiCAD/custom-lib/custom-lib.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P1) (pin 2))
