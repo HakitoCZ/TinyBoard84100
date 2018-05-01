@@ -170,7 +170,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer B.Cu) (tedit 541A9C03) (tstamp 5AE89C4F)
-    (at 163.83 92.71 90)
+    (at 170.18 92.71 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AD23DE1)
@@ -420,7 +420,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 5AE89CD8)
-    (at 190.5 107.95)
+    (at 191.77 92.71)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AD23D65)
@@ -453,7 +453,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 5AE89CE8)
-    (at 190.5 104.14)
+    (at 191.77 88.9)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AD23EBD)
@@ -486,7 +486,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 5AE89CF8)
-    (at 190.5 111.76)
+    (at 191.77 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AD23D8B)
@@ -553,7 +553,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering (layer B.Cu) (tedit 0) (tstamp 5AE89D1E)
-    (at 177.8 107.95 270)
+    (at 176.53 92.71 270)
     (descr "SOT89-3, Housing, Handsoldering,")
     (tags "SOT89-3, Housing, Handsoldering,")
     (path /5AD23F10)
