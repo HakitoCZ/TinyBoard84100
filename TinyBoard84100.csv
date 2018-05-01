@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"P4";"Pin_Header_Straight_2x03";1;"CONN_02X03";;;
+2;"C1";"C_1206_HandSoldering";1;"4.7uF";;;
+3;"C2";"C_1206_HandSoldering";1;"1uF";;;
+4;"D1,D2";"LED_0805";2;"LED";;;
+5;"P2,P3";"Pin_Header_Straight_1x07";2;"CONN_01X07";;;
+6;"R1,R2,R3";"R_0805_HandSoldering";3;"1k";;;
+7;"SW1";"SW_SPST_FSMSM";1;"SW_PUSH";;;
+8;"U1";"SOT89-3_Housing_Handsoldering";1;"78L05";;;
+9;"U2";"SOIC-14_3.9x8.7mm_Pitch1.27mm";1;"ATTINY841";;;
