@@ -65,7 +65,7 @@
     (grid_origin 167.64 83.82)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -80,9 +80,9 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
-      (padsonsilk true)
+      (padsonsilk false)
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
@@ -419,7 +419,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8C8FD) (tstamp 5AE89CD8)
+  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8D885) (tstamp 5AE89CD8)
     (at 191.77 92.71)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -428,7 +428,7 @@
     (fp_text reference R1 (at 0 2.1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.1) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.625) (end -1 0.625) (layer B.Fab) (width 0.1))
@@ -452,7 +452,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8C8ED) (tstamp 5AE89CE8)
+  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8D856) (tstamp 5AE89CE8)
     (at 191.77 88.9)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -461,7 +461,7 @@
     (fp_text reference R2 (at 0 2.1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.1) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.625) (end -1 0.625) (layer B.Fab) (width 0.1))
@@ -485,7 +485,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8C8F8) (tstamp 5AE89CF8)
+  (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 5AE8D889) (tstamp 5AE89CF8)
     (at 191.77 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -494,7 +494,7 @@
     (fp_text reference R3 (at 0 2.1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.1) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.625) (end -1 0.625) (layer B.Fab) (width 0.1))
